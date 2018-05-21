@@ -1,0 +1,13 @@
+body{
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    display: inline;
+    margin: 2px;
+}
+.hofman{
+    font-size: 36px;
+}
