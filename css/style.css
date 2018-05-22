@@ -1,13 +1,337 @@
-body{
-    color: #000000;
+body {
+    color: #4b4b4b;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
-a{
-    display: inline;
-    margin: 2px;
+
+.wrapper {
+    width: 100%;
+    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
-.hofman{
+
+/* navigation */
+
+.navbar {
+    color: #ffffff;
+    height: 156px;
+    background-color: #4b4b4b;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    float: left;
+    text-align: center;
+    color: #ebeb80;
+    margin-top: 55px;
+    margin-left: 160px;
     font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.0554719em;
+    text-transform: uppercase;
+}
+
+.navbar-list {
+    float: right;
+    padding-top: 55px;
+}
+
+ul {
+    padding-right: 149px;
+}
+
+li {
+    display: inline;
+    margin: 0px 7px;
+}
+
+a {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+input[type=button] {
+    color: #000000;
+    border: 2px solid #4B4B4B;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-left: 7px;
+    width: 198px;
+    height: 48px;
+    text-transform: uppercase;
+}
+
+#take-a-tour {
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+}
+
+/* header */
+
+.header {
+    background-image: url(../img/Background.png);
+    background-color: #ebeb80;
+    opacity: 1;
+    height: 768px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 270px;
+    height: 48px;
+    border: 1px solid #4B4B4B;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding-left: 10px;
+    background: transparent;
+    margin-right: 10px;
+}
+
+.choose-boutique {
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: -0.0363636em;
+    line-height: 48px;
+    text-transform: capitalize;
+    padding-top: 236px;
+}
+
+.how-to-fly {
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.icon-button {
+    padding-top: 20px;
+}
+
+.icon-button input[type=button] {
+    width: 80px;
+    height: 80px;
+    border: none;
+}
+
+#plane-icon {
+    margin-right: 60px;
+    background-image: url(../img/plane-icon.png);
+}
+
+#wallet-icon {
+    margin-right: 60px;
+    background-image: url(../img/wallet-icon.png);
+}
+
+#case-icon {
+    background-image: url(../img/case-icon.png);
+}
+
+/* Team */
+
+.team {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    line-height: 48px;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: -0.0363636em;
+    text-transform: capitalize;
+}
+
+.person-container {
+    margin: 0 auto;
+    display: inline-block;
+    width: 1140px;
+    height: 100%;
+}
+
+.person {
+    display: inline-block;
+    width: 360px;
+    height: 162px;
+    margin-bottom: 80px;
+}
+
+.person img {
+    margin-right: 10px;
+    clear: both;
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.person-info {
+    display: inline-block;
+    text-align: left;
+    width: 260px;
+}
+
+.person-info-name {
+    line-height: 26px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.person-info-position {
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0;
+}
+
+.person-info-description {
+    line-height: 24px;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+/* Pricing */
+
+.pricing {
+    background-color: #4B4B4B;
+    height: 680px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.pricing-title h2 {
+    color: #FFFFFF;
+    padding-top: 68px;
+}
+
+.pricing-container {
+    margin: 0 auto;
+    display: inline-block;
+    width: 1139px;
+    height: 396px;
+}
+
+.pricing-info {
+    width: 360px;
+    height: 396px;
+    background: linear-gradient(221.37deg, rgba(255, 255, 255, 0.7) 1.05%, rgba(255, 255, 255, 7e-05) 86.93%);
+    background-blend-mode: soft-light;
+    border-radius: 8px;
+    text-align: center;
+    float: left;
+    margin-right: 10px;
+    background-image: url(../img/card-bg.png);
+}
+
+.pricing-info-title {
+    font-family: 'Lucida Grande';
+    font-size: 18px;
+    letter-spacing: 0.0555556em;
+    text-transform: uppercase;
+    color: #ebeb80;
+}
+
+.price-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.plan-currency {
+    font-size: 24px;
+    margin: 30px 0px 5px 130px;
+}
+
+.plan-price {
+    line-height: 48px;
+    font-size: 64px;
+    letter-spacing: -0.0363636em;
+    text-align: center;
+    margin: 30px 0px 5px 10px;
+}
+
+.pricing-year {
+    line-height: 27px;
+    font-size: 18px;
+    letter-spacing: 0.0555556em;
+    text-transform: uppercase;
+}
+
+.pricing-text {
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.pricing-info input[type="button"] {
+    background-image: url(../img/purchase-button.png);
+    color: #4B4B4B;
+}
+
+.pricing-info:hover {
+    color: #4B4B4B;
+    background-image: url(../img/gold-bg.png);
+}
+
+.pricing-info:hover input[type="button"] {
+    background-image: url(../img/purchase-button1.png);
+    color: #FFFFFF;
+}
+
+.pricing-info:hover .pricing-info-title {
+    color: #4B4B4B;
+}
+
+/* Testimonials */
+
+.testimonials {
+    text-align: center;
+    width: 100%;
+}
+
+.slideshow-container {
+    display: flex;
+}
+
+.prev {
+    width: 66px;
+    height: 66px;
+    padding-top: 289px;
+    margin-left: 200px;
+}
+
+.slideshow {
+    margin-top: 100px;
+    /* width: 555px; */
+    float: left;
+}
+
+.detail {
+    font-size: 16px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #ffffff;
+    display: inline-block;
+    border: 2px solid #4B4B4B;
+    box-sizing: border-box;
+    border-radius: 7.5px;
+}
+
+.dot:hover {
+    background-color: #717171;
 }
