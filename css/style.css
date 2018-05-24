@@ -28,7 +28,7 @@ body {
 h1 {
     float: left;
     text-align: center;
-    color: #ebeb80;
+    color: #EBCB80;
     margin-top: 55px;
     margin-left: 160px;
     font-size: 36px;
@@ -79,7 +79,7 @@ input[type=button] {
 
 .header {
     background-image: url(../img/Background.png);
-    background-color: #ebeb80;
+    background-color: #EBCB80;
     opacity: 1;
     height: 768px;
     text-align: center;
@@ -150,6 +150,7 @@ h2 {
     text-align: center;
     letter-spacing: -0.0363636em;
     text-transform: capitalize;
+    color: #000000;
 }
 
 .person-container {
@@ -200,7 +201,7 @@ h2 {
 
 /* Pricing */
 
-.pricing {
+.section {
     background-color: #4B4B4B;
     height: 680px;
     color: #FFFFFF;
@@ -209,19 +210,19 @@ h2 {
     text-align: center;
 }
 
-.pricing-title h2 {
+.title h2 {
     color: #FFFFFF;
     padding-top: 68px;
 }
 
-.pricing-container {
+.section-container {
     margin: 0 auto;
     display: inline-block;
     width: 1139px;
     height: 396px;
 }
 
-.pricing-info {
+.box-info {
     width: 360px;
     height: 396px;
     background: linear-gradient(221.37deg, rgba(255, 255, 255, 0.7) 1.05%, rgba(255, 255, 255, 7e-05) 86.93%);
@@ -233,19 +234,19 @@ h2 {
     background-image: url(../img/card-bg.png);
 }
 
-.pricing-info-title {
+.box-info-title {
     font-family: 'Lucida Grande';
     font-size: 18px;
     letter-spacing: 0.0555556em;
     text-transform: uppercase;
-    color: #ebeb80;
+    color: #EBCB80;
+    margin-top: 40px;
 }
 
 .price-wrap {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    text-align: right;
 }
 
 .plan-currency {
@@ -261,35 +262,40 @@ h2 {
     margin: 30px 0px 5px 10px;
 }
 
-.pricing-year {
+.box-info-detail {
     line-height: 27px;
     font-size: 18px;
     letter-spacing: 0.0555556em;
     text-transform: uppercase;
 }
 
-.pricing-text {
+.box-info-text {
     line-height: 24px;
     font-size: 16px;
 }
 
-.pricing-info input[type="button"] {
+.box-info input[type="button"] {
     background-image: url(../img/purchase-button.png);
     color: #4B4B4B;
+    margin-top: 10px;
 }
 
-.pricing-info:hover {
+.box-info:hover {
     color: #4B4B4B;
     background-image: url(../img/gold-bg.png);
 }
 
-.pricing-info:hover input[type="button"] {
+.box-info:hover input[type="button"] {
     background-image: url(../img/purchase-button1.png);
     color: #FFFFFF;
 }
 
-.pricing-info:hover .pricing-info-title {
+.box-info:hover .pricing-info-title {
     color: #4B4B4B;
+}
+
+.box-info:hover .box-info-container .box-info-title {
+    color: #4B4B4B
 }
 
 /* Testimonials */
@@ -301,6 +307,8 @@ h2 {
 
 .slideshow-container {
     display: flex;
+    align-items: center;
+    margin-left: 250px;
 }
 
 .prev {
@@ -311,8 +319,8 @@ h2 {
 }
 
 .slideshow {
-    margin-top: 100px;
-    /* width: 555px; */
+    margin: 100px 100px 50px 100px;
+    width: 555px;
     float: left;
 }
 
@@ -335,3 +343,98 @@ h2 {
 .dot:hover {
     background-color: #717171;
 }
+
+/* advantages */
+
+.box-info-container {
+    width: 230px;
+    margin: 0 auto;
+}
+
+.adv-detail {
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.0625em;
+    margin-top: 40px;
+    margin-bottom: 1px;
+}
+
+.adv-text {
+    margin-top: 1px;
+}
+
+.adv-description {
+    width: 430px;
+    height: 48px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.adv-title {
+    padding: 0px;
+}
+
+/* Projects */
+
+.projects {
+    text-align: center;
+}
+
+.places {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.places-info {
+    margin-left: 50px;
+}
+
+.prj-img {
+    width: 948px;
+    display: block;
+    margin: 0 auto;
+}
+
+.prj-img img {
+    float: left;
+    margin: 5px;
+}
+
+.prj-img .img6 {
+    float: none;
+}
+
+.prj-img img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Create an account */
+
+.cta {
+    background-image: url(../img/Mask.png);
+    margin: auto;
+    display: block;
+}
+
+.cta-box {
+    width: 360px;
+}
+
+.acc-link {
+    text-transform: none;
+    text-decoration: underline;
+    color: #EBCB80;
+}
+
+.box-info-container .form {
+    margin-bottom: 25px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
