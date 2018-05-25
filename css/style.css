@@ -438,3 +438,138 @@ h2 {
     border-radius: 4px;
 }
 
+/* Contact */
+
+/* Contact us */
+
+.contact {
+    margin: 0 auto;
+}
+
+.contact-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 80px;
+}
+
+.contact-text {
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: 0.0555556em;
+}
+
+.contact-address {
+    width: 234px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.add img {
+    float: left;
+    clear: both;
+    margin-right: 15px;
+}
+
+.contact-form {
+    width: 536px;
+    height: 414px;
+    background: #FFFFFF;
+    border: 2.13333px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.contact-form-wrap {
+    display: flex;
+}
+
+.contact-form-wrap input {
+    width: 204px;
+    height: 36px;
+    margin: 20px auto;
+}
+
+.form-info {
+    margin: 10px;
+    display: inline-block;
+}
+
+.contact-form input[type="submit"] {
+    background: #EBCB80;
+    border-radius: 50px;
+    width: 210px;
+    height: 48px;
+    margin-left: 25%;
+}
+
+.credit-follow-wrap {
+    width: 263px;
+}
+
+.follow img {
+    margin: 20px;
+}
+
+/* map section */
+
+.map {
+    height: 400px;
+    background-image: url(../img/map.png);
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+}
+
+/* footer */
+
+.footer {
+    height: 310px;
+    color: #FFFFFF;
+    background-image: url(../img/background-footer.png)
+}
+
+.footer-contact {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.footer .follow {
+    margin: 0 90px 0px 250px;
+}
+.footer .follow img{
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.about-us {
+    width: 360px;
+    height: 48px;
+}
+
+.footer-text {
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+hr {
+    background: #7D7D7D;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-left: 80px;
+    margin-right: 130px;
+}
+.footer-nav-wrap{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
